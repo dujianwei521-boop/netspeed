@@ -6,7 +6,9 @@
 
 ## 📸 效果
 
-![screenshot](screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dujianwei521-boop/netspeed/main/screenshot.png" alt="NetSpeed 菜单栏效果" width="460">
+</p>
 
 ## 🚀 安装
 
