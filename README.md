@@ -4,35 +4,16 @@
 
 ![swift](https://img.shields.io/badge/Swift-6.0+-orange) ![macos](https://img.shields.io/badge/macOS-13.0+-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
-## ✨ 效果
+## 📸 效果
 
-菜单栏右上角显示实时网络速度：
+![screenshot](screenshot.png)
 
-```
-↓ 12.5K  ↑ 3.2K
-```
-
-- **↓** 下载速度
-- **↑** 上传速度
-- 自动切换单位 B / K / M
-- 每秒刷新
-
-## 📦 安装
-
-### 编译运行
+## 🚀 安装
 
 ```bash
 git clone https://github.com/dujianwei521-boop/netspeed.git
 cd netspeed
-swiftc -o NetSpeed NetSpeed.swift
-nohup ./NetSpeed > /dev/null 2>&1 &
-```
-
-### 开机自启
-
-```bash
-cp com.netspeed.menubar.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.netspeed.menubar.plist
+chmod +x install.sh && ./install.sh
 ```
 
 ## 🛑 退出
