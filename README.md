@@ -22,7 +22,7 @@
 ### 编译运行
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/netspeed.git
+git clone https://github.com/dujianwei521-boop/netspeed.git
 cd netspeed
 swiftc -o NetSpeed NetSpeed.swift
 nohup ./NetSpeed > /dev/null 2>&1 &
